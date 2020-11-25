@@ -16,6 +16,7 @@
     margin: 5%;
     display: flex;
     justify-content: space-around;
+   
 }
 
 .contact_content img {
@@ -45,9 +46,10 @@
 
 
 
-.contact_text a {
+.contact_text button {
+    border: none;
     color: rgb(29, 29, 29);
-    width: 30%;
+    width: 90px;
     margin: 5px;
     background-color: orange;
     text-align: center;
@@ -57,9 +59,56 @@
     text-decoration: none;
     transition: 0.3s;
 }
-.contact_text a:hover {
+.contact_text button:hover {
     color: rgb(255, 255, 255);
  transform: scale(1.1);
  text-shadow: black 0 0 2;
   
+}
+#contact_info1
+{
+ display: block; 
+
+}
+#contact_info2  div h3
+{  font-size: 14px;
+    margin: 0;
+color:white;
+text-align: start;
+ 
+}
+#contact_info2 img
+{
+width: 100%;
+}
+#contact_info2 div h2
+{   font-size: 16px;
+    margin: 0;
+   color: orange;
+   height: 100%;
+}
+#contact_info2  h4
+{text-align: center;
+    color: white;
+    font-size: 25px;
+    margin: 0;
+}
+#contact_info2
+{ 
+    display: none;
+    width: 100%;
+    padding: 5%;
+     
+}
+
+#contact_info2 div
+{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+#clicks
+{
+    display: none;
 }

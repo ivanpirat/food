@@ -20,8 +20,6 @@
 </head>
 
 <body>
-    <script src="js/main.js"></script>
-    <h1 id="h1"></h1>
     <div class="contact_bacground">
         <div class="contact_menu margin_default">
             <nav class="menu_item_1">
@@ -37,11 +35,18 @@
                 <a href="http://">BLOG</a>
             </nav>
         </div>
+       
         <div class="contact_content">
-            <div>
+            <div id="contact_info1">
                 <img src="image/Place Your Image Here (Double Click to Edit).png" alt="">
             </div>
-
+            <div id="contact_info2">
+                <div>  <h2>Номер телефона:</h2> <h3> +79181888883</h3> </div>
+             <div>  <h2>Адрес:</h2 > <h3> Клыкова 92, Курск</h3></div>
+               <h4>карта</h4 >  
+              
+                <div style="position:relative;overflow:hidden;  "><a href="https://yandex.ru/maps/org/utka/106217173081/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Utka</a><a href="https://yandex.ru/maps/8/kursk/category/restaurant/184106394/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Ресторан в Курске</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUEAUVoLA" width="100%" height="100%" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+            </div>
             <div class="contact_text">
                 <div>
                     <h1>Contact Us for</h1>
@@ -49,7 +54,8 @@
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna.</p>
-                <a href=""> contact Us</a>
+               
+                <button onclick="contact_info()" id="button_contact_info" >contact Us  <a id="clicks"></a> </button>
 
             </div>
         </div>
@@ -145,26 +151,27 @@
                 sed do eiusmod tempor incididunt ut labore et dolore magna</p>
         </div>
     </div>
-    <footer >
+    <footer>
         <div class="food_love_div">
             <img src="image/footer/food love.png" class="food_love_img" alt="">
         </div>
 
-<nav>
-    <a href="">home</a>
-    <a href="">About Us</a>
-    <a href="">Services</a>
-    <a href="">Foods</a>
-    <a href="">Contact</a>
-    <a href="">Location</a>
-</nav>
-<div class="img_maneger">
-    <img src="image/footer/1.png" alt="">
-    <img src="image/footer/2.png" alt="">
-    <img src="image/footer/3.png" alt="">
-     <img src="image/footer/4.png" alt="">
-</div>
+        <nav>
+            <a href="">home</a>
+            <a href="">About Us</a>
+            <a href="">Services</a>
+            <a href="">Foods</a>
+            <a href="">Contact</a>
+            <a href="">Location</a>
+        </nav>
+        <div class="img_maneger">
+            <img src="image/footer/1.png" alt="">
+            <img src="image/footer/2.png" alt="">
+            <img src="image/footer/3.png" alt="">
+            <img src="image/footer/4.png" alt="">
+        </div>
     </footer>
 </body>
+<script src="js/main.js"></script>
 
 </html>

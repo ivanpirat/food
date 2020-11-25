@@ -2,6 +2,16 @@
     body {
         font-size: 0.7em;
     }
+    #contact_info2 div
+    {  flex-direction: column;
+        align-items: flex-start;
+    }
+    #contact_info2  h4
+{text-align: start;
+    color: white;
+    font-size: 25px;
+    margin: 0;
+}
     .contact_menu nav {
         margin-top: 5px;
         margin-bottom: 5px;
