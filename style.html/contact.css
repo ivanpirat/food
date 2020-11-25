@@ -13,9 +13,10 @@
 }
 
 .contact_content {
-    margin: 5%;
+    
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
    
 }
 
@@ -96,13 +97,13 @@ width: 100%;
 #contact_info2
 { 
     display: none;
-    width: 100%;
-    padding: 5%;
+   width: 100vw;
+    
      
 }
 
 #contact_info2 div
-{ 
+{ padding-left: 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;

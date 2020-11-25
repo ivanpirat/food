@@ -3,15 +3,27 @@
         font-size: 0.7em;
     }
     #contact_info2 div
-    {  flex-direction: column;
-        align-items: flex-start;
+    {   padding-left: 5%;
+        padding-right: 5%;
+        align-items: center;
     }
     #contact_info2  h4
-{text-align: start;
+{text-align: center;
     color: white;
     font-size: 25px;
     margin: 0;
 }
+.contact_content {
+  
+    flex-direction: column;
+   
+}
+.contact_content img {
+    padding: 5%;
+    width: 70%;
+}
+
+
     .contact_menu nav {
         margin-top: 5px;
         margin-bottom: 5px;
