@@ -1,0 +1,29 @@
+.quality 
+{
+    background: url(../image/quality/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ copy\ 3.png) no-repeat;
+    background-size: 100%  auto ;
+    height: 100%;
+    
+  
+}
+.quality div
+{display: flex;
+    flex-direction: column;
+    padding-top: 20%;
+    padding-right: 45%;
+    padding-left: 3%;
+    padding-bottom: 90%;
+ 
+}
+ 
+.quality div h2
+{
+    color: white;
+    font-size:3em;
+    font-weight: bold;
+}
+.quality div p
+{ font-size:1.1em;
+    color: white;
+ 
+}

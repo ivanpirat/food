@@ -1,0 +1,29 @@
+.about
+{
+    display: flex;
+    flex-direction: row ;   
+    align-items: center;
+}
+.about div img
+{
+    width: 100%;
+    padding: 5%;
+}
+.about div  
+{
+  width: 50%;
+  margin: 5%;
+
+}
+.about div h2
+{
+    color: white;
+    font-size:3em;
+    font-weight: bold;
+}
+.about div p
+{font-size:1.3em;
+    color: white;
+
+     
+}

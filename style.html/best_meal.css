@@ -1,0 +1,28 @@
+.best_meal
+{
+    background-color: orange;
+    display: flex;
+margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+}
+.best_meal img
+{
+    width: 40%;
+    transform: scale(1.2);
+margin-left: 7%;
+}
+.best_meal div
+{
+   padding: 10%;
+}
+.best_meal h2
+{
+ color: white;
+}
+.best_meal p
+{
+ color: white;
+}

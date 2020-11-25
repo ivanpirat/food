@@ -1,0 +1,22 @@
+.gallery h2
+{
+  text-align: center;
+ color: white;
+ padding-top: 40px;
+ padding-bottom: 40px;
+ font-size: 2em;
+}
+.gallery_grid
+{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+grid-gap: 10px;
+justify-items: center; 
+ 
+}
+.gallery_grid img
+{
+     border-radius: 10px;
+     max-width:300px;
+}
+     

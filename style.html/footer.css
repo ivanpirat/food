@@ -1,0 +1,45 @@
+footer
+{
+    padding-top: 40px;
+ width: 100%;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #35353b;
+}
+footer nav
+{
+ 
+  width: 70%;
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+}
+footer nav a
+{    
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font: 0.9em sans-serif;
+}
+footer div  
+{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer div  img
+{
+    padding: 8%;
+width: 5%;
+
+}
+.food_love_div img
+{
+width: 50%;
+height: 100%;
+}

@@ -1,0 +1,32 @@
+.contact_menu {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.contact_menu nav {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_menu nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 12px;
+    transition: 0.2s;
+}
+
+.contact_menu nav a:hover {
+ 
+    transition: 0.2s;
+    color: orange;
+    transform: scale(1.3);
+}

@@ -1,0 +1,47 @@
+.our_menu h2
+{
+text-align: center;
+color: white;
+
+}
+.our_menu
+{
+  justify-content: end;
+}
+.our_menu_grid
+{
+    display: grid;
+
+ 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-items: center; 
+ 
+  
+grid-gap: 10px;
+ 
+}
+ 
+.our_menu_grid div
+{
+justify-items: center;
+ padding: 5%;
+  height: auto;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+ 
+  align-items: flex-start;
+}
+.our_menu_grid div img
+{
+    width: 100%;
+    
+}
+.our_menu_grid div h2
+{
+   color: orange;
+}
+.our_menu_grid div p
+{
+   color: white;
+}

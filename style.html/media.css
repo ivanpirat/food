@@ -1,0 +1,52 @@
+@media (max-width: 850px) {
+    body {
+        font-size: 0.7em;
+    }
+    .contact_menu nav {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .contact_menu {
+        height: auto;
+        justify-content: center;
+    }
+    .contact_menu img {
+        display: none;
+    }
+    .contact_menu nav a {
+        padding: 5px;
+        font-size: 0.8em;
+    }
+    .margin_default {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .contact_text h1 {
+        font-size: 1.2em;
+    }
+    .contact_text a {
+        width: 50%;
+    }
+    .quality div h2 {
+        color: white;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 5px;
+    }
+    .quality div p {
+     
+        color: white;
+        margin: 0;  
+          margin: 5px;
+    }
+    .quality div{ 
+    padding-bottom: 55%;
+ 
+}
+.our_food div
+{
+border: orange solid 2px;
+}
+ 
+ 
+}

@@ -1,0 +1,16 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #1d1d23;
+ 
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.margin_default
+{
+margin-left: 5%;
+margin-right: 5%;
+}

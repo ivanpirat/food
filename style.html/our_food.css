@@ -1,0 +1,29 @@
+.our_food
+{margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../image/our_food/our_food.jpg )no-repeat ;
+    width: 100%;
+}
+
+.our_food div
+{
+
+margin:  15%  25% 15% 25%;
+padding: 5%;
+background-color: #1d1d23ea;
+border: orange solid 6px;
+
+}
+.our_food div h2
+{
+    color: white;
+    text-align: center;
+}
+.our_food div p
+{
+    color: white;
+    text-align: center;
+}

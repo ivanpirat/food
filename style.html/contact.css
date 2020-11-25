@@ -1,0 +1,65 @@
+.contact_bacground {
+    background: linear-gradient(rgba(37, 37, 37, 0.836), rgba(48, 48, 48, 0.863)), url(../image//Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).jpg);
+    margin: 0;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.contact_menu img {
+    height: 100%;
+}
+
+.contact_content {
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact_content img {
+    padding: 5%;
+    width: 100%;
+}
+
+.contact_text {
+    padding: 5%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+ 
+}
+.contact_text h1 {
+    color: orange;
+    
+    margin: 5px;
+    font-weight: bolder;
+}
+
+.contact_text p {
+    color: rgb(255, 255, 255);
+ 
+    margin: 5px;
+}
+
+
+
+.contact_text a {
+    color: rgb(29, 29, 29);
+    width: 30%;
+    margin: 5px;
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.contact_text a:hover {
+    color: rgb(255, 255, 255);
+ transform: scale(1.1);
+ text-shadow: black 0 0 2;
+  
+}
