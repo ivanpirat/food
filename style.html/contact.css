@@ -64,11 +64,18 @@
     color: rgb(255, 255, 255);
  transform: scale(1.1);
  text-shadow: black 0 0 2;
+
   
+}
+.contact_text button:active
+{
+    transition: 0.5;
+    animation: buttonanim 0.5s;
 }
 #contact_info1
 {
  display: block; 
+ transition: 2s;
 
 }
 #contact_info2  div h3
@@ -112,4 +119,26 @@ width: 100%;
 #clicks
 {
     display: none;
+}
+@keyframes buttonanim
+{
+    from {
+        transform: scale(1)
+      }
+      50% 
+      {
+        transform: scale(0.9)
+      }
+    
+      to {
+        transform: scale(1)
+      }
+}
+.scroll_div
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 5px;
+    background-color: rgb(255, 0, 0);
 }

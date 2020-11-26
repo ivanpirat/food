@@ -1,20 +1,20 @@
+document.getElementById('contact_info1').style.display="block"
  
- var clicks =1 ;
-
+const scroll_div = document.querySelector('.scroll_div');
 
   function contact_info()
     {
-     if(clicks == 1)
+      var c_i_1=  document.getElementById('contact_info1').style.display;
+      console.log(c_i_1);
+     if(c_i_1 === "block")
       {
-        clicks -= 1;
-        document.getElementById("clicks").innerHTML = clicks;
-      document.getElementById('contact_info1').style.display="none"
+        document.getElementById('contact_info1').style.transition="2s";
+           document.getElementById('contact_info1').style.display="none"
            document.getElementById('contact_info2').style.display="block"
       }
-   else if (clicks == 0)
+   else 
       {
-     document.getElementById("clicks").innerHTML = clicks;
-      clicks += 1;
+        document.getElementById('contact_info1').style.transition="2s";
     document.getElementById('contact_info2').style.display="none"
         document.getElementById('contact_info1').style.display="block"
         
@@ -22,6 +22,16 @@
       }
 
      
-
+ 
 
   }
+
+window.addEventListener('scroll',progresbar);
+function progresbar(e)
+{
+let winscroll = document.documentElement.scrollTop||document.body.scrollTop;
+let winheight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+let per = winscroll/winheight*100 ;
+scroll_div.style.width = per + '%';
+}
+
